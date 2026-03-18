@@ -24,6 +24,6 @@ Then do `python project.py` (here file name is project.py)
 If program runs smoothly porject is ready.  
 If not go back to some AI and fix the problem in connectivity  
 Because this code here is error free.  
-----------------------------------------------------------------------------------------  
+
 **This project is proprietary and confidential. See the LICENSE file for full details.**
 ----------------------------------------------------------------------------------------
