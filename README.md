@@ -1,6 +1,6 @@
 # CS-Project
 This project is owned by Aswanth R.  
-This software is **Proprietary and Confidential**. Unauthorized use, distribution, or modification is strictly prohibited.  
+This software is **Proprietary**. Unauthorized use, distribution, or modification is strictly prohibited.  
 # Steps 1
 Copy and run `connection-test.py`.  
 **Change varibales like  database,user,host and password.**  
@@ -25,5 +25,5 @@ If program runs smoothly porject is ready.
 If not go back to some AI and fix the problem in connectivity  
 Because this code here is error free.  
 
-**This project is proprietary and confidential. See the LICENSE file for full details.**
+**This project is proprietary. See the LICENSE file for full details.**
 ----------------------------------------------------------------------------------------
