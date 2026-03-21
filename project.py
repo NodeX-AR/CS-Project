@@ -1,4 +1,5 @@
 import mysql.connector as sqlcon
+
 db=sqlcon.connect(
     host='localhost',
     user='root',
