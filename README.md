@@ -17,6 +17,13 @@ IF THESE DON'T FIX REFER SOME AI AND FIX AND MOVE TO STEP 2.
 # Step 2  
 This is main project.  
 First go to MySQL and do >>> `Create database library;`  
+now do >>>`CREATE TABLE list (   
+    id INT NOT NULL AUTO_INCREMENT,   
+    student_name VARCHAR(100) NOT NULL,   
+    book VARCHAR(100) DEFAULT NULL,   
+    status VARCHAR(20) DEFAULT NULL,   
+    PRIMARY KEY (id)   
+);`   
 Now copy and run main.py.  
 Once run for first time the program is ready.  
 Now for better performance direct to file in cmd   
