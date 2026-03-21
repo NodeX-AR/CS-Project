@@ -92,7 +92,7 @@ def main():
         else:
             print("Please enter a valid option")
             continue
-    print("             Thank You using our program                  |")
+    print("|            Thank You using our program                  |")
     print("+---------------------------------------------------------+")
     db.close()
           
