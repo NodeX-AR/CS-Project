@@ -21,6 +21,7 @@ now do >>>`CREATE TABLE list (id INT NOT NULL AUTO_INCREMENT,student_name VARCHA
 Now copy and run main.py.  
 Once run for first time the program is ready.  
 Now for better performance direct to file in cmd   
+The cmd for this is `cd <the file path>`  
 Then do `python project.py` (here file name is project.py)  
 If program runs smoothly porject is ready.  
 If not go back to some AI and fix the problem in connectivity  
