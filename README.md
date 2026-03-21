@@ -30,3 +30,107 @@ Because this code here is error free.
 
 **This project is proprietary and confidential. See the LICENSE file for full details.**
 ----------------------------------------------------------------------------------------
+This is a output of a example run:
+
+PS C:\Users\ASWANTH> python test.py  
++---------------------------------------------------------+  
+|               LIBRARY MANAGEMENT SYSTEM                 |  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :2  
++---------------------------------------------------------+  
+(1, 'Aswanth', 'Wings of Fire', 'Book Issued')  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :3  
++---------------------------------------------------------+  
+Enter the name of new student:Abhinav  
+Student Abhinav is sucessfully added.  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :5  
++---------------------------------------------------------+  
+Enter the name of new student:Abhinav  
+Enter the book name:Harry Potter  
+Book  Harry Potter  issued to  Abhinav  successfully!  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :6  
++---------------------------------------------------------+  
+Enter the name of new student:Abhinav  
+The student Abhinav has been issued a book  
+The book issued is  Harry Potter  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :4  
++---------------------------------------------------------+  
+Enter the name of new student:Abhinav  
+Student Abhinav  has retured the book. Status Updated !  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :6  
++---------------------------------------------------------+  
+Enter the name of new student:Abhinav  
+The student Abhinav has already returned the book.  
++---------------------------------------------------------+  
+|Options :                                                |  
++---------------------------------------------------------+  
+|1.Close the system.                                      |  
+|2.Show the entire registry.                              |  
+|3.Add new student.                                       |  
+|4.Return of book.                                        |  
+|5.Issue of book.                                         |  
+|6.Check the status of a student.                         |  
++---------------------------------------------------------+  
+|Enter the option index number :1  
++---------------------------------------------------------+  
+             Thank You using our program                  |  
++---------------------------------------------------------+  
