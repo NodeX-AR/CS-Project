@@ -8,7 +8,7 @@ import mysql.connector as sqlcon
 db=sqlcon.connect(
     host='localhost',
     user='root',
-    password='Aswanth@2009', # Change this
+    password='password', # Change this
     database='mysql'
     )
 
