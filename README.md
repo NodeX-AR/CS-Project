@@ -19,9 +19,10 @@ This is main project.
 First copy and run main.py.  
 Once run for first time the program is ready.  
 Now for better performance direct to file in cmd   
-The cmd for this is `cd /d <the file path>` eg: "cd /d D:\PythonProjects"  
+The cmd for this is `cd <the file path>` eg: "cd D:\PythonProjects"  
 Then do `python project.py` (here file name is project.py)  
 If `python project.py` fails do `py project.py`
+If they above way don't work you can manually run the program.
 If program runs smoothly porject is ready.  
 If not go back to some AI and fix the problem in connectivity  
 Because this code here is error free.  
