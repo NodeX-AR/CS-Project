@@ -18,7 +18,7 @@ IF THESE DON'T FIX REFER SOME AI AND FIX AND MOVE TO STEP 2.
 This is main project.  
 First copy and run main.py.  
 Once run for first time the program is ready.  
-Now for better performance direct to file in cmd   
+Now for better performance direct to file in powershell or cmd.     
 The cmd for this is `cd <the file path>` eg: "cd D:\PythonProjects"  
 Then do `python project.py` (here file name is project.py)  
 If `python project.py` fails do `py project.py`
