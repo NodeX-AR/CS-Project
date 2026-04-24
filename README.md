@@ -8,11 +8,13 @@ Now check for output.
 If successfully connected move to step 2.  
 If not, check the error code.  
 Here some common error codes and fixes.  
+```bash
 Error | Code      	        | Meaning	What to fix  
 1045  |	Access Denied	      | Your user or password is wrong.  
 1049  |	Unknown Database	  | The database name you typed doesn't exist in MySQL yet.  
 2003  |	Can't connect	      | MySQL server isn't started (Open your XAMPP/MySQL dashboard).  
-1044  |	Access denied to DB | The user exists, but doesn't have permission for that specific DB.  
+1044  |	Access denied to DB | The user exists, but doesn't have permission for that specific DB.
+```
 IF THESE DON'T FIX REFER SOME AI AND FIX AND MOVE TO STEP 2.  
 # Step 2  
 This is main project.  
