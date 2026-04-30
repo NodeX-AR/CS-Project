@@ -3,7 +3,8 @@ This project is owned by Aswanth R.
 This software is **Proprietary and Confidential**. Unauthorized use, distribution, or modification is strictly prohibited.  
 # Steps 1
 Copy and run `connection-test.py`.  
-**Change varibales like  database,user,host and password.**  
+**Change varibales like user,host and password.**  
+## Do not change the databse !  
 Now check for output.  
 If successfully connected move to step 2.  
 If not, check the error code.  
