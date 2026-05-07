@@ -1,49 +1,53 @@
-# CS-Project
-This project is owned by Aswanth R.  
-This software is **Proprietary and Confidential**. Unauthorized use, distribution, or modification is strictly prohibited.  
-# Steps 1
-Copy and run `connection-test.py`.  
-**Change varibales like user,host and password.**  
-## Do not change the databse !  
-Now check for output.  
-If successfully connected move to step 2.  
-If not, check the error code.  
-## 🔧 Common MySQL Error Codes & Solutions
+# Library Management System – CBSE Class 12 CS Project
 
-```bash
-┌────────────┬─────────────────────┬──────────────────────────────────┐
-│ Error Code │ Error               │ What to Fix                      │
-├────────────┼─────────────────────┼──────────────────────────────────┤
-│ 1045       │ Access Denied       │ ❌ Wrong username/password       │
-│            │                     │ ✅ Check MySQL credentials       │
-├────────────┼─────────────────────┼──────────────────────────────────┤
-│ 1049       │ Unknown Database    │ ❌ Database doesn't exist        │
-│            │                     │ ✅ Create DB or check name       │
-├────────────┼─────────────────────┼──────────────────────────────────┤
-│ 2003       │ Can't connect       │ ❌ MySQL server not running      │
-│            │                     │ ✅ Start XAMPP/MySQL daemon      │
-├────────────┼─────────────────────┼──────────────────────────────────┤
-│ 1044       │ Access denied to DB │ ❌ User lacks DB privileges      │
-│            │                     │ ✅ Grant permissions to user     │
-└────────────┴─────────────────────┴──────────────────────────────────┘
-```
-IF THESE DON'T FIX REFER SOME AI AND FIX AND MOVE TO STEP 2.  
-# Step 2  
-This is main project.  
-First copy and run main.py.  
-Once run for first time the program is ready.  
-Now for better performance direct to file in powershell or cmd.     
-The cmd for this is `cd dir <the file path>` eg: "cd dir D:\PythonProjects"  
-Then do `python project.py` (here file name is project.py)  
-If `python project.py` fails do `py project.py`
-If they above way don't work you can manually run the program.
-If program runs smoothly porject is ready.  
-If not go back to some AI and fix the problem in connectivity  
-Because this code here is error free.  
+**Author:** Aswanth R  
+**Subject:** Computer Science (Code 083)  
 
-**This project is proprietary and confidential. See the LICENSE file for full details.**
-----------------------------------------------------------------------------------------
-## Library Management System - Demo Output
+---
+
+## License
+
+Educational Use License – see LICENSE file.  
+Free for educational and evaluation purposes. Commercial use prohibited.
+
+---
+
+## How to Run
+
+### Step 1 – Test MySQL Connection
+
+1. Edit `connection-test.py` – set your MySQL host, user, password.
+2. Run: `python connection-test.py`
+3. If you see `✅ Connected successfully!`, go to Step 2.
+
+### Common MySQL Errors
+
+| Error Code | Problem | Fix |
+|------------|---------|-----|
+| 1045 | Access denied | Check username/password |
+| 1049 | Unknown database | Create database or check name |
+| 2003 | Cannot connect | Start MySQL/XAMPP |
+| 1044 | Access denied to DB | Grant privileges |
+
+### Step 2 – Run Main Project
+
+Run: ```python project.py ```
+If that fails, try: ``` py project.py ```
+
+First run creates database `library` and table `list` automatically.
+
+Menu options:
+1. Issue book
+2. Show registry
+3. Add student
+4. Return book
+5. Check student status
+6. Exit
+7. Master reset (drops database)
+
+---
+
+## Demo Output (Sample)
 
 ```bash
 PS C:\Users\ASWANTH> python "project cs.py"
