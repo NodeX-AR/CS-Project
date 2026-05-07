@@ -9,7 +9,6 @@ db=sqlcon.connect(
     host='localhost',
     user='root',
     password='password', # Change this
-    database='mysql'
     )
 
 #checking connection
@@ -70,17 +69,25 @@ def new():
     print("Student",n,"is sucessfully added.")
     
 #section to return book
-def breturn():
-    n=input("Enter the name of new student:")
+def return_book():
+    n = input("Enter the name of student:")
+    cursor.execute("SELECT status FROM `list` WHERE student_name = %s", (n,))
+    result = cursor.fetchone()
+    if result is None:
+        print("Student not found.")
+        return
+    if result[0] != "Book Issued":
+        print(f"{n} has no book to return.")
+        return
     query = "UPDATE `list` SET status = 'Book Returned', book = NULL WHERE student_name = %s"
-    cursor.execute(query,(n,))
+    cursor.execute(query, (n,))
     db.commit()
-    print("Student",n," has retured the book. Status Updated !")
+    print("Student", n, "has returned the book. Status Updated!")
     
 #section to issue a book
 def issue():
     n=input("Enter the name of new student:")
-    cursor.execute("SELECT status FROM `list` WHERE student_name = '%s'"%(n))
+    cursor.execute("SELECT status FROM `list` WHERE student_name = %s", (n,))
     result = cursor.fetchone()
     if result is None:
         print("Student not found.")
@@ -124,7 +131,6 @@ def reset():
     print("+---------------------------------------------------------+")
     if ans == 'y':
         cursor.execute("Drop database library")
-        check = cursor.fetchall()
         print("|Reset Protocol Executed Successfully. Now Please restart!|")
         db.commit()
         print("+---------------------------------------------------------+")
@@ -160,7 +166,7 @@ def main():
             new()
             
         elif opt == "4":
-            breturn()
+            return_book()
             
         elif opt == "5":
             status()
@@ -176,6 +182,7 @@ def main():
             continue
     print("|             Thank You using our program :)              |")
     print("+---------------------------------------------------------+")
+    cursor.close()
     db.close()
     
 #start section          
