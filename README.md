@@ -48,7 +48,7 @@ Menu options:
 ---
 
 ## Demo Output (Sample)
-
+---
 ```bash
 PS C:\Users\ASWANTH> python "project cs.py"
 All Configs already set !
