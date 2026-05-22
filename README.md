@@ -4,7 +4,9 @@
 **Subject:** Computer Science (Code 083)  
 
 ---
+[![GitHub stars](https://img.shields.io/github/stars/NodeX-AR/CS-Project?style=social)](https://github.com/NodeX-AR/CS-Project/stargazers)
 
+---  
 ## License
 
 Educational Use License – see LICENSE file.  
