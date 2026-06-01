@@ -124,7 +124,24 @@ def status():
         
     else:
         print("The student",n,"has never taken a book.")
-        
+
+#search
+def search_student():
+    name = input("Enter student name to search:")
+    query = "SELECT student_name, book, status FROM `list` WHERE student_name LIKE %s"
+    cursor.execute(query, (f"%{name}%",))
+    results = cursor.fetchall()
+    if results:
+        print("                   Search Results ")
+        print("+---------------------------------------------------------+")
+        for row in results:
+            if row[1] is None:
+                book_display = "None"
+            else:
+                book_display = row[1]
+            print("Student:", row[0], ", Book:", book_display, ", Status:", row[2])
+    else:
+        print("No student found.")
 #master reset section ! 
 def reset():
     ans = input("|Are You Sure About reset [Y/N] :").lower()
@@ -151,8 +168,9 @@ def main():
         print("|3.Add new student.                                       |")
         print("|4.Return of book.                                        |")
         print("|5.Check the status of a student.                         |")
-        print("|6.Close the system.                                      |")
-        print("|7.Master Reset.                                          |")
+        print("|6.Search for a student.
+        print("|7.Close the system.                                      |")
+        print("|8.Master Reset.                                          |")
         print("+---------------------------------------------------------+")
         opt=input("|Enter the option index number :")
         print("+---------------------------------------------------------+")
@@ -170,11 +188,13 @@ def main():
             
         elif opt == "5":
             status()
-
         elif opt == "6":
+            search_student()
+            
+        elif opt == "7":
             break
         
-        elif opt == "7":
+        elif opt == "8":
             reset()
             break
         else:
