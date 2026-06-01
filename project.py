@@ -2,7 +2,7 @@
 # For any reference or corrections please post and comment of out respo
 # Here is link https://github.com/NodeX-AR/CS-Project/
 # For better function of script please close with the code of project rather than manual closing !
-import mysql.connector as sqlcon
+import mysql.connector as sqlcon 
 
 #connection
 db=sqlcon.connect(
