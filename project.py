@@ -42,7 +42,7 @@ else:
     print("| [00000000000000000                            ][ 40 % ] |")
     db.commit()
     print("| [0000000000000000000000000                    ][ 60 % ] |")
-    cursor.execute("CREATE table list ( student_name Varchar(50) , book Varchar(100) , status Varchar(30)) ")
+    cursor.execute("CREATE table list ( student_id INT AUTO_INCREMENT PRIMARY KEY, student_name Varchar(50) , book Varchar(100) , status Varchar(30)) ")
     print("| [0000000000000000000000000000000              ][ 80 % ] |")
     db.commit()
     print("| [000000000000000000000000000000000000000000000][ 100% ] |")
